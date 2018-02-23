@@ -1,0 +1,25 @@
+{
+	"name": "chicpro/xmlrpc-naver-blog",
+	"description": "Register post on Naver blog using XMLRPC API.",
+	"keywords": ["xmlrpc", "naver", "blog", "post", "api"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Seongho Jang",
+			"email": "chicpro@gmail.com",
+			"homepage": "https://ncube.net"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"ext-xmlrpc": "*",
+		"phpxmlrpc/phpxmlrpc":"~4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"chicpro\\NaverBlog\\": "src/chicpro/NaverBlog/",
+			"PhpXmlRpc\\": "src/"
+		}
+	},
+	"minimum-stability": "stable"
+}
